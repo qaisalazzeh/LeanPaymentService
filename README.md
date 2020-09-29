@@ -12,7 +12,7 @@ In order to have this back end service up and running on you machine (server), y
 ## Installation-Steps
 * Clone API source code into your machine :
 ```bash
-git clone https://XXXXXXXX
+git clone https://github.com/qaisalazzeh/LeanPaymentService.git
 ```
 * Navigate to LeanPayment Repository and make sure you are on pom.xml file:
 ```bash
