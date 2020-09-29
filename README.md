@@ -37,13 +37,13 @@ Now the service is up and running on your machine :
 * You can use [Postman](https://www.postman.com/) to start test the API, any other rest client.
 * You can use curl utility if you are mac or Linux OS from your terminal:
 ```bash
-curl -XGET http://localhost:8080/leanpayment/customer/1
+curl -XGET -H "lean-token: sdf79a8sd7f79adf" http://localhost:8080/LeanPaymentService/customers/1
 ```
 ```bash
-curl -XGET http://localhost:8080/leanpayment/account/1
+curl -XGET -H "lean-token: sdf79a8sd7f79adf" http://localhost:8080/LeanPaymentService/accounts/1
 ```
 ```bash
-curl -XGET http://localhost:8080/leanpayment/account/1/transactions
+curl -XGET -H "lean-token: sdf79a8sd7f79adf" http://localhost:8080/LeanPaymentService/accounts/1/transactions
 ```
 
 ## Notes
