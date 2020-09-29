@@ -57,7 +57,7 @@ curl -XGET -H "lean-token: sdf79a8sd7f79adf" http://localhost:8080/LeanPaymentSe
 * Tests included under test source folder to cover the service implementation.
 * If you face and issue with Lombok please visit this [manual](https://stackoverflow.com/questions/11803948/lombok-is-not-generating-getter-and-setter) to support Lombok for your IDE.
 * I used the java 8 streaming to support my solution and for less code.
-
+* Missing Lean Token if your request dose not contains the lean token in the header list.
 ## Questions
 * #### Why i am using redis as in memory database solution ? 
   Redis is highly compatable with Spring boot and Spring data frameworks as you can use the spring redis dependency to mange the messages and key for your redis service
